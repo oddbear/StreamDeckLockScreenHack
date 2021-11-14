@@ -11,6 +11,7 @@ Configure:
 There are 3 properties:
 ```xml
 <!-- Used to set how often it should check for the computer beeing locked (the window here is quite small, so keep this number low ex. 1 second) -->
+<!-- The format to get this even lower is 00:00:00.250 for 250 milliseconds, lower value = higher chance of success -->
 <add key="WaitTime" value="00:00:01" />
 <!-- Set the locked computer brightness, 0 is "off" -->
 <add key="BrightnessLocked" value="0" />
